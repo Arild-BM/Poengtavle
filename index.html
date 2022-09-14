@@ -1,0 +1,35 @@
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="index.css" href="CursedTimerULiL.ttf">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="header-font">HOME</h3>
+                <p id="home-score">0</p>
+                <div class="buttons">
+                    <button class="button" onclick="inc_h_1()">+1</button>
+                    <button class="button" onclick="inc_h_2()">+2</button>
+                    <button class="button" onclick="inc_h_3()">+3</button>
+                </div>
+                <button class="reset" onclick="inc_h_r()">RESET</button>
+            </div>
+            <div class="guest">
+                <h3 class="header-font">GUEST</h3>
+                <p id="guest-score">0</p>
+                <div class="buttons">
+                    <button class="button" onclick="inc_g_1()">+1</button>
+                    <button class="button" onclick="inc_g_2()">+2</button>
+                    <button class="button" onclick="inc_g_3()">+3</button>
+                </div>
+                <button class="reset" onclick="inc_g_r()">RESET</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
